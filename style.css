@@ -28,7 +28,7 @@ body {
 }
 .hero {
   min-height: 70vh;
-  background: url("images/hero.jpeg") center/cover no-repeat;
+  background: url("/images/hero.jpeg") center/cover no-repeat;
   color: #fff;
   display: flex;
   align-items: center;
