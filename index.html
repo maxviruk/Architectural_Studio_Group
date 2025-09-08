@@ -1,194 +1,251 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>STUDIO GROUP — Архитектура, интерьер и озеленение</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="style.css" rel="stylesheet" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <meta name="description" content="Создаем уникальные пространства: архитектура, дизайн интерьеров и ландшафтное озеленение." />
-</head>
-<body>
-  <!-- Навигация -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-    <div class="container">
-      <a class="navbar-brand fw-bold" href="#">STUDIO GROUP</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="nav">
-        <ul class="navbar-nav ms-auto align-items-lg-center">
-          <li class="nav-item"><a class="nav-link active" href="#">Главная</a></li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" href="#">More</a>
-            <ul class="dropdown-menu dropdown-menu-end">
-              <li><a class="dropdown-item" href="#about">О нас</a></li>
-              <li><a class="dropdown-item" href="#services">Услуги</a></li>
-              <li><a class="dropdown-item" href="#projects">Проекты</a></li>
-            </ul>
-          </li>
-          <li class="nav-item ms-lg-2"><a class="btn btn-outline-light" href="#contact">КОНТАКТ</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Герой -->
-  <header class="hero">
-    <div class="overlay">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>STUDIO GROUP — Архитектура, интерьер и озеленение</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta
+      name="description"
+      content="Создаем уникальные пространства: архитектура, дизайн интерьеров и ландшафтное озеленение."
+    />
+  </head>
+  <body>
+    <!-- Навигация -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
       <div class="container">
-        <div class="col-lg-8 col-xl-7">
-          <h1>Архитектурное искусство</h1>
-          <p class="mb-4">Дизайн, который вдохновляет и восхищает.</p>
-          <a href="#services" class="btn btn-accent btn-lg">VIEW SERVICES</a>
+        <a class="navbar-brand fw-bold" href="#">STUDIO GROUP</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#nav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nav">
+          <ul class="navbar-nav ms-auto align-items-lg-center">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Главная</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                role="button"
+                href="#"
+                >More</a
+              >
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li><a class="dropdown-item" href="#about">О нас</a></li>
+                <li><a class="dropdown-item" href="#services">Услуги</a></li>
+                <li><a class="dropdown-item" href="#projects">Проекты</a></li>
+              </ul>
+            </li>
+            <li class="nav-item ms-lg-2">
+              <a class="btn btn-outline-light" href="#contact">КОНТАКТ</a>
+            </li>
+          </ul>
         </div>
       </div>
-    </div>
-  </header>
+    </nav>
 
-  <!-- О нас -->
-  <section class="section" id="about">
-    <div class="container">
-      <div class="row align-items-center g-5">
-        <div class="col-lg-6">
-          <h6>ТВОРИМ ПРОСТРАНСТВО</h6>
-          <h2 class="fw-bold mb-3">Архитектура, дизайн и озеленение</h2>
-          <p class="lead mb-4">Создаем уникальные решения для вашего комфорта и стиля.</p>
-          <a class="link-dark" href="#contact">Get in touch</a>
-        </div>
-        <div class="col-lg-6">
-          <img src="images/project1.jpg" alt="Современный дом" class="img-fluid rounded-3 shadow-sm" />
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Услуги -->
-  <section class="section bg-light" id="services">
-    <div class="container">
-      <h6>АРХИТЕКТУРА И ДИЗАЙН</h6>
-      <h2 class="fw-bold mb-4">Креативные решения для вашего пространства</h2>
-      <div class="row g-4">
-        <div class="col-md-6 col-lg-4">
-          <div class="card h-100">
-            <img src="images/service1.jpg" alt="Архитектурное проектирование">
-            <div class="card-body">
-              <h5 class="card-title">Архитектурное проектирование</h5>
-              <p class="card-text small-muted">Создание уникальных архитектурных решений.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="card h-100">
-            <img src="images/service2.jpg" alt="Дизайн интерьеров">
-            <div class="card-body">
-              <h5 class="card-title">Дизайн интерьеров</h5>
-              <p class="card-text small-muted">Стильные и функциональные пространства.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="card h-100">
-            <img src="images/service3.jpg" alt="Ландшафтное озеленение">
-            <div class="card-body">
-              <h5 class="card-title">Ландшафтное озеленение</h5>
-              <p class="card-text small-muted">Преобразование внешних пространств с помощью растений.</p>
-            </div>
+    <!-- Герой -->
+    <header class="hero">
+      <div class="overlay">
+        <div class="container">
+          <div class="col-lg-8 col-xl-7">
+            <h1>Архитектурное искусство</h1>
+            <p class="mb-4">Дизайн, который вдохновляет и восхищает.</p>
+            <a href="#services" class="btn btn-accent btn-lg">VIEW SERVICES</a>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </header>
 
-  <!-- Проекты -->
-  <section class="section" id="projects">
-    <div class="container">
-      <h6>НАШИ ДОСТИЖЕНИЯ</h6>
-      <h2 class="fw-bold mb-4">Примеры успешных проектов</h2>
-      <div class="row g-4">
-        <div class="col-md-6 col-lg-4">
-          <div class="card h-100">
-            <img src="images/project1.jpg" alt="Жилой дом">
-            <div class="card-body">
-              <h5 class="card-title">Создание уникального жилого дома</h5>
-              <p class="card-text small-muted">Уникальный жилой дом для семьи.</p>
-              <a href="#" class="link-primary">Learn more</a>
-            </div>
+    <!-- О нас -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6">
+            <h6>ТВОРИМ ПРОСТРАНСТВО</h6>
+            <h2 class="fw-bold mb-3">Архитектура, дизайн и озеленение</h2>
+            <p class="lead mb-4">
+              Создаем уникальные решения для вашего комфорта и стиля.
+            </p>
+            <a class="link-dark" href="#contact">Get in touch</a>
+          </div>
+          <div class="col-lg-6">
+            <img
+              src="images/project1.jpeg"
+              alt="Современный дом"
+              class="img-fluid rounded-3 shadow-sm"
+            />
           </div>
         </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="card h-100">
-            <img src="images/project2.jpg" alt="Офис">
-            <div class="card-body">
-              <h5 class="card-title">Дизайн интерьера для стильного офиса</h5>
-              <p class="card-text small-muted">Стильный офис с уникальным дизайном.</p>
-              <a href="#" class="link-primary">Learn more</a>
+      </div>
+    </section>
+
+    <!-- Услуги -->
+    <section class="section bg-light" id="services">
+      <div class="container">
+        <h6>АРХИТЕКТУРА И ДИЗАЙН</h6>
+        <h2 class="fw-bold mb-4">Креативные решения для вашего пространства</h2>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100">
+              <img
+                src="images/service1.jpeg"
+                alt="Архитектурное проектирование"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Архитектурное проектирование</h5>
+                <p class="card-text small-muted">
+                  Создание уникальных архитектурных решений.
+                </p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="card h-100">
-            <img src="images/project3.jpg" alt="Ландшафт">
-            <div class="card-body">
-              <h5 class="card-title">Ландшафтное озеленение загородного дома</h5>
-              <p class="card-text small-muted">Красивая садовая зона для отдыха.</p>
-              <a href="#" class="link-primary">Learn more</a>
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100">
+              <img src="images/service2.jpeg" alt="Дизайн интерьеров" />
+              <div class="card-body">
+                <h5 class="card-title">Дизайн интерьеров</h5>
+                <p class="card-text small-muted">
+                  Стильные и функциональные пространства.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100">
+              <img src="images/service3.jpeg" alt="Ландшафтное озеленение" />
+              <div class="card-body">
+                <h5 class="card-title">Ландшафтное озеленение</h5>
+                <p class="card-text small-muted">
+                  Преобразование внешних пространств с помощью растений.
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Контакты -->
-  <section class="section bg-light" id="contact">
-    <div class="container">
-      <div class="row g-5">
-        <div class="col-lg-6">
-          <h6>СВЯЖИТЕСЬ С НАМИ</h6>
-          <h2 class="fw-bold mb-4">Мы готовы помочь вам!</h2>
-          <form onsubmit="event.preventDefault(); alert('Спасибо! Форма-демо — подключим отправку через Formspree/EmailJS.');">
-            <div class="mb-3">
-              <label class="form-label">Name *</label>
-              <input type="text" class="form-control" required>
+    <!-- Проекты -->
+    <section class="section" id="projects">
+      <div class="container">
+        <h6>НАШИ ДОСТИЖЕНИЯ</h6>
+        <h2 class="fw-bold mb-4">Примеры успешных проектов</h2>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100">
+              <img src="images/project1.jpeg" alt="Жилой дом" />
+              <div class="card-body">
+                <h5 class="card-title">Создание уникального жилого дома</h5>
+                <p class="card-text small-muted">
+                  Уникальный жилой дом для семьи.
+                </p>
+                <a href="#" class="link-primary">Learn more</a>
+              </div>
             </div>
-            <div class="mb-3">
-              <label class="form-label">Email *</label>
-              <input type="email" class="form-control" required>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100">
+              <img src="images/project2.jpeg" alt="Офис" />
+              <div class="card-body">
+                <h5 class="card-title">Дизайн интерьера для стильного офиса</h5>
+                <p class="card-text small-muted">
+                  Стильный офис с уникальным дизайном.
+                </p>
+                <a href="#" class="link-primary">Learn more</a>
+              </div>
             </div>
-            <div class="mb-3">
-              <label class="form-label">Phone *</label>
-              <input type="tel" class="form-control" required>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100">
+              <img src="images/project3.jpeg" alt="Ландшафт" />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Ландшафтное озеленение загородного дома
+                </h5>
+                <p class="card-text small-muted">
+                  Красивая садовая зона для отдыха.
+                </p>
+                <a href="#" class="link-primary">Learn more</a>
+              </div>
             </div>
-            <div class="mb-3">
-              <label class="form-label">Message</label>
-              <textarea class="form-control" rows="4"></textarea>
-            </div>
-            <button class="btn btn-accent">SUBMIT</button>
-          </form>
-        </div>
-        <div class="col-lg-6">
-          <div class="p-4 bg-white rounded-3 shadow-sm h-100">
-            <h5>Свяжитесь с нами</h5>
-            <p class="mb-2"><strong>Email:</strong> <a href="mailto:annpelyh@gmail.com">annpelyh@gmail.com</a></p>
-            <p class="mb-2"><strong>Location:</strong> Frankfurt am Main, HE DE</p>
-            <p class="mb-0"><strong>Hours</strong><br>Monday–Friday: 9:00am – 10:00pm<br>Saturday: 9:00am – 6:00pm<br>Sunday: 9:00am – 12:00pm</p>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Footer -->
-  <footer class="text-center">
-    <div class="container">
-      <p class="mb-1"><a href="#">Записаться на приём</a> &nbsp;&nbsp; <a href="#">Заполнить анкету</a></p>
-      <p class="mb-0 small">Web design by B12 — вручную переверстано</p>
-    </div>
-  </footer>
+    <!-- Контакты -->
+    <section class="section bg-light" id="contact">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-6">
+            <h6>СВЯЖИТЕСЬ С НАМИ</h6>
+            <h2 class="fw-bold mb-4">Мы готовы помочь вам!</h2>
+            <form
+              onsubmit="event.preventDefault(); alert('Спасибо! Форма-демо — подключим отправку через Formspree/EmailJS.');"
+            >
+              <div class="mb-3">
+                <label class="form-label">Name *</label>
+                <input type="text" class="form-control" required />
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Email *</label>
+                <input type="email" class="form-control" required />
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Phone *</label>
+                <input type="tel" class="form-control" required />
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Message</label>
+                <textarea class="form-control" rows="4"></textarea>
+              </div>
+              <button class="btn btn-accent">SUBMIT</button>
+            </form>
+          </div>
+          <div class="col-lg-6">
+            <div class="p-4 bg-white rounded-3 shadow-sm h-100">
+              <h5>Свяжитесь с нами</h5>
+              <p class="mb-2">
+                <strong>Email:</strong>
+                <a href="mailto:annpelyh@gmail.com">annpelyh@gmail.com</a>
+              </p>
+              <p class="mb-2">
+                <strong>Location:</strong> Frankfurt am Main, HE DE
+              </p>
+              <p class="mb-0">
+                <strong>Hours</strong><br />Monday–Friday: 9:00am – 10:00pm<br />Saturday:
+                9:00am – 6:00pm<br />Sunday: 9:00am – 12:00pm
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+    <!-- Footer -->
+    <footer class="text-center">
+      <div class="container">
+        <p class="mb-1">
+          <a href="#">Записаться на приём</a> &nbsp;&nbsp;
+          <a href="#">Заполнить анкету</a>
+        </p>
+        <p class="mb-0 small">Web design by B12 — вручную переверстано</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
