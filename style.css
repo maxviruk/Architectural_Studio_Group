@@ -1,27 +1,91 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
-:root{
-  --brand:#12331f;
-  --accent:#2fb14d;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+:root {
+  --brand: #12331f;
+  --accent: #2fb14d;
 }
-*{box-sizing:border-box}
-body{font-family:Poppins,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;color:#111}
-.navbar{background:var(--brand)!important}
-.navbar .nav-link,.navbar .navbar-brand{color:#fff!important}
-.navbar .btn-outline-light{border-color:#fff;color:#fff}
-.navbar .btn-outline-light:hover{background:#fff;color:var(--brand)}
-.hero{min-height:70vh;background:url('images/hero.jpg') center/cover no-repeat;color:#fff;display:flex;align-items:center}
-.hero .overlay{background:rgba(0,0,0,.35);width:100%}
-.hero .container{padding:120px 15px}
-.hero h1{font-weight:700;font-size:clamp(2rem,5vw,4rem);text-shadow:0 2px 6px rgba(0,0,0,.3)}
-.hero p{font-size:clamp(1rem,2vw,1.25rem)}
-.btn-accent{background:var(--accent);color:#fff;border:none}
-.btn-accent:hover{filter:brightness(1.05)}
-.section{padding:80px 0}
-.section h6{letter-spacing:.1em;color:var(--accent)}
-.card{border:none;border-radius:14px;overflow:hidden;box-shadow:0 8px 24px rgba(0,0,0,.08)}
-.card img{display:block;width:100%;height:auto}
-footer{background:#0e1b10;color:#fff;padding:40px 0}
-footer a{color:#b9e2c4;text-decoration:none}
-footer a:hover{text-decoration:underline}
-.small-muted{color:#6b7280}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Poppins, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+    Cantarell, "Noto Sans", sans-serif;
+  color: #111;
+}
+.navbar {
+  background: var(--brand) !important;
+}
+.navbar .nav-link,
+.navbar .navbar-brand {
+  color: #fff !important;
+}
+.navbar .btn-outline-light {
+  border-color: #fff;
+  color: #fff;
+}
+.navbar .btn-outline-light:hover {
+  background: #fff;
+  color: var(--brand);
+}
+.hero {
+  min-height: 70vh;
+  background: url("images/hero.jpeg") center/cover no-repeat;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+.hero .overlay {
+  background: rgba(0, 0, 0, 0.35);
+  width: 100%;
+}
+.hero .container {
+  padding: 120px 15px;
+}
+.hero h1 {
+  font-weight: 700;
+  font-size: clamp(2rem, 5vw, 4rem);
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+.hero p {
+  font-size: clamp(1rem, 2vw, 1.25rem);
+}
+.btn-accent {
+  background: var(--accent);
+  color: #fff;
+  border: none;
+}
+.btn-accent:hover {
+  filter: brightness(1.05);
+}
+.section {
+  padding: 80px 0;
+}
+.section h6 {
+  letter-spacing: 0.1em;
+  color: var(--accent);
+}
+.card {
+  border: none;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+.card img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+footer {
+  background: #0e1b10;
+  color: #fff;
+  padding: 40px 0;
+}
+footer a {
+  color: #b9e2c4;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+.small-muted {
+  color: #6b7280;
+}
